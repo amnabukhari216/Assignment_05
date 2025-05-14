@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+   background-color: white;
+    color: #333;
+display: flex;
+justify-content: center;
+  
+}
+
+.resume {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #6a5acd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #6a5acd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-info {
+    flex: 1;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #6a5acd;
+}
+
+h2 {
+    font-size: 22px;
+    color: #6a5acd;
+    border-bottom: 2px solid #6a5acd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #444;
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+strong {
+    color: #6a5acd;
+}
+
+.personal-info {
+    background-color: #f0e6ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
